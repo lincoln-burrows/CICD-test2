@@ -30,3 +30,6 @@ jobs:
       run: ./gradlew build 
       shell: bash # 다음 단계에서 스크립트 추가 예정
       
+    - name: Make zip file
+      run: zip -r ./$GITHUB_SHA.zip .
+      shell: bash      
