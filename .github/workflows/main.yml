@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   
 env:
-  S3_BUCKET_NAME: logging-system-deploy0
+  S3_BUCKET_NAME: logging-system-user0
   PROJECT_NAME: playground_logging
 
 jobs: 
