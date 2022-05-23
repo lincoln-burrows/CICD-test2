@@ -1,7 +1,7 @@
 # run_new_was.sh
 #
 # !/bin/bash
-CURRENT_PORT=$(cat /home/ubuntu/service_url.inc | grep -Po '[0-9]+' | tail -1)
+CURRENT_PORT=$(cat /etc/nginx/conf.d/service_url.inc | grep -Po '[0-9]+' | tail -1)
 TARGET_PORT=0
 
 echo "> Current port of running WAS is ${CURRENT_PORT}."
