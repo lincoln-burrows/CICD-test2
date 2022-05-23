@@ -22,6 +22,6 @@ if [ ! -z ${TARGET_PID} ]; then
 fi
 
 #nohup java -jar -Dserver.port=${TARGET_PORT} /home/ubuntu/playground-logging/build/libs/cicd-0.0.1-SNAPSHOT.jar > /home/ubuntu/nohup.out 2>&1 &
-nohup java -jar -Dserver.port=${TARGET_PORT} playground-logging/build/libs/cicd-0.0.1-SNAPSHOT.jar > /home/ubuntu/nohup.out 2>&1 &
+nohup java -jar -Dserver.port=${TARGET_PORT} /playground-logging/build/libs/cicd-0.0.1-SNAPSHOT.jar > /nohup.out 2>&1 &
 echo "> Now new WAS runs at ${TARGET_PORT}."
 exit 0
