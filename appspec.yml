@@ -4,8 +4,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/Chorok/ # 프로젝트 이름
-#    destination: /home/ubuntu/playground_logging/ # 프로젝트 이름
+#    destination: /home/ubuntu/Chorok/ # 프로젝트 이름
+    destination: /home/ubuntu/playground_logging/ # 프로젝트 이름
     overwrite: yes
 
 
