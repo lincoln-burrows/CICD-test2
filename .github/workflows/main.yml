@@ -10,8 +10,8 @@ on:
   
 env:
   S3_BUCKET_NAME: logging-deploy-user0
-#  PROJECT_NAME: Chorok
-  PROJECT_NAME: playground_logging
+  PROJECT_NAME: Chorok
+#  PROJECT_NAME: playground_logging
 
 jobs: 
   build: 
